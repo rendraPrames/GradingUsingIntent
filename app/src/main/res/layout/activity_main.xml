@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_bkg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_dataDiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="100dp"
+            android:textColor="#FFFFFF"
+            android:text="DATA DIRI"
+            android:textSize="24dp" />
+
+        <EditText
+            android:textColorHint="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:id="@+id/editText_Nim"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:textColor="#FFFFFF"
+            android:hint="Nim"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:id="@+id/editText_Nama"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <EditText
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:id="@+id/editText_Nilai"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Nilai"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/button_proses"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:text="PROSES"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
